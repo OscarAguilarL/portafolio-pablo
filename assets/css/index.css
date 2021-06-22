@@ -21,7 +21,7 @@
   --headline2: 700 4rem/4.75rem var(--baseFont);
   --headline3: 700 2rem/2rem var(--baseFont);
   --headline4: 700 1.5rem/1.649999976158142rem var(--baseFont);
-  --button: semi bold 1.125rem/1.6875rem var(--baseFont);
+  --button: 600 1.125rem/1.6875rem var(--baseFont);
   --caption: 400 0.75rem/1.6875rem Arvo;
   --headline5: 700 1.25rem/1.649999976158142rem var(--baseFont);
   --body1Regular: 400 1.125rem/1.6875rem var(--baseFont);
@@ -36,4 +36,5 @@ body {
   margin: 0;
   margin-inline-start: 1.375rem;
   margin-inline-end: 1.375rem;
+  overflow-x: hidden;
 }
