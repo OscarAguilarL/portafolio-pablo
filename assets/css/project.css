@@ -14,6 +14,10 @@
   flex-direction: column;
 }
 
+.project-img {
+  margin: 0 auto;
+}
+
 .project-content h3 {
   font: var(--headline3);
   color: var(--blue);
