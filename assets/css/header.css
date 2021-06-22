@@ -10,6 +10,11 @@
   align-items: center;
 }
 
+a.logo-link {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
 .header .logo {
   font: var(--headline4);
 }
