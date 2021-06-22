@@ -1,4 +1,6 @@
 @import './icons.css';
+@import './sticky.css';
+@import './header.css';
 
 :root {
   --baseFont: 'Inter', sans-serif;
@@ -23,8 +25,11 @@
   --body1Bold: 700 1.125rem/1.6875rem var(--baseFont);
   --body2Regular: 400 0.875rem/1.5rem var(--baseFont);
   --body2Bold: 700 0.875rem/1.6875rem var(--baseFont);
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: var(--baseFont);
+  margin-inline-start: 1.375rem;
+  margin-inline-end: 1.375rem;
 }

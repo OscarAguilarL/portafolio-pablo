@@ -1,0 +1,45 @@
+.header {
+  position: sticky;
+  top: 0;
+  color: var(--secondary);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .logo {
+  font: var(--headline4);
+}
+
+.panel {
+  position: fixed;
+  top: 4.5rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(34, 34, 34, 0.85);
+  transition: transform 0.3s ease;
+  transform: translate(0, 110%);
+}
+
+.panel.is-active {
+  transform: translate(0, 0);
+}
+
+.panel .navigation {
+  background-color: var(--white);
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+  /* height: 22.5rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.navigation a {
+  font: var(--body1Bold);
+  color: var(--primary);
+  text-transform: uppercase;
+  text-decoration: none;
+}
