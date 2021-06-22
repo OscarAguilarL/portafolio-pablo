@@ -1,6 +1,8 @@
 .header {
   padding-block-start: 0.5rem;
   padding-block-end: 0.5rem;
+  padding-inline-start: 1.375rem;
+  padding-inline-end: 1.375rem;
   position: sticky;
   top: 0;
   color: var(--secondary);

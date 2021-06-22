@@ -1,4 +1,7 @@
 .hero {
+  margin-inline-start: 1.375rem;
+  margin-inline-end: 1.375rem;
+  margin-block-end: 2rem;
   padding-block-start: 1rem;
   display: flex;
   flex-direction: column;

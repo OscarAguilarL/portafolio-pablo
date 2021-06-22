@@ -1,9 +1,9 @@
-.main {
-  padding-block-start: 8rem;
-  padding-block-end: 8rem;
-}
-
 .project-container {
+  background: var(--background1);
+  padding-block-start: 6rem;
+  padding-block-end: 8rem;
+  padding-inline-start: 1.375rem;
+  padding-inline-end: 1.375rem;
   display: flex;
   flex-direction: column;
   gap: 10.125rem;
