@@ -1,6 +1,8 @@
 @import './icons.css';
 @import './sticky.css';
 @import './header.css';
+@import './button.css';
+@import './hero.css';
 
 :root {
   --baseFont: 'Inter', sans-serif;

@@ -1,0 +1,27 @@
+.hero {
+  padding-block-start: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero-title > * {
+  margin: 0;
+}
+
+.hero-title h1 {
+  margin-block-end: 1rem;
+  margin-block-start: 1rem;
+  font: var(--headline3);
+  color: var(--blue);
+}
+
+.hero-title h2 {
+  font: var(--headline5);
+  color: var(--grey);
+}
+
+.hero-description {
+  font: var(--body2Regular);
+  color: var(--grey);
+}
