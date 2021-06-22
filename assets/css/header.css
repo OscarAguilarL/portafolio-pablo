@@ -1,9 +1,12 @@
 .header {
+  padding-block-start: 0.5rem;
   position: sticky;
   top: 0;
   color: var(--secondary);
+  background-color: var(--white);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header .logo {
@@ -38,14 +41,45 @@
 }
 
 .navigation a {
-  font: var(--body1Bold);
-  color: var(--primary);
+  font: var(--body2Bold);
+  color: var(--secondary);
   text-transform: uppercase;
   text-decoration: none;
+}
+
+a.is-active {
+  font: var(--body1Bold);
+  color: var(--primary);
 }
 
 .hamburger-inner,
 .hamburger-inner::before,
 .hamburger-inner::after {
   background-color: var(--primary) !important;
+}
+
+@media screen and (min-width: 768px) {
+  #hamburguer {
+    display: none;
+  }
+
+  .header {
+    padding-inline-start: 5.5625rem;
+    padding-inline-end: 5.5625rem;
+  }
+
+  .panel {
+    position: static;
+    transform: none;
+    flex: 0;
+  }
+
+  .panel .navigation {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navigation a {
+    font: var(--body2Bold);
+  }
 }
