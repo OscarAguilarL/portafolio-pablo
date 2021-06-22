@@ -72,6 +72,8 @@ a.is-active {
   .header {
     padding-inline-start: 5.5625rem;
     padding-inline-end: 5.5625rem;
+    padding-block-start: 0;
+    padding-block-end: 0;
   }
 
   .panel {
