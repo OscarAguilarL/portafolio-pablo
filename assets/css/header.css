@@ -43,3 +43,9 @@
   text-transform: uppercase;
   text-decoration: none;
 }
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+  background-color: var(--primary) !important;
+}
