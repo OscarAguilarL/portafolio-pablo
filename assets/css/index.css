@@ -5,6 +5,7 @@
 @import './wrapper.css';
 @import './hero.css';
 @import './project.css';
+@import './testimony.css';
 
 :root {
   --baseFont: 'Inter', sans-serif;
